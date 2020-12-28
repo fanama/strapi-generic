@@ -1,0 +1,62 @@
+@import "../../../css/variables";
+@import "../../../css/function";
+
+$shading : rgba(#023300,0.2);
+
+.comments {
+    margin: 1em;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap : 1em;
+
+    .post {
+        padding: 1em;
+        @include flexCenter(column);
+        background-color: $background;
+        color: $color;
+
+
+
+    }
+
+    .Form {
+
+        @include flexCenter(column);
+
+        input , button ,textarea {
+            margin: 1em;
+        }
+
+        textarea {
+            resize: none;
+        }
+
+        margin: 1em;
+
+    }
+
+    .list {
+        h2 {
+            text-align: center;
+        }
+
+        background-color: $background;
+        color: $color;
+        padding: 1em;
+
+        ul {
+            background-color: $shading;
+            padding: 1em;
+
+            .element {
+                background-color: $shading;
+                margin: 1em;
+                padding: 1em;
+            }
+
+            max-height: 50%;
+            overflow-y: scroll;
+        }
+    }
+
+}

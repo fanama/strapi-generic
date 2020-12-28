@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "teches",
+  "info": {
+    "name": "tech"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
