@@ -112,7 +112,7 @@ exports
 *.cache
 build
 .strapi-updater.json
-config/strapi-generic/database.js
+config/database.js
 
 ############################
 # Frontend

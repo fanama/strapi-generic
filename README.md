@@ -11,8 +11,8 @@ for this to work you muste have nodejs and a database
 ## starting the project
 
 1. clone the project
-2. rename the file *config/strapi-generic/database_to_copy.js* to *config/strapi-generic/database.js*
-   1. > cp config/strapi-generic/database_to_copy.js config/strapi-generic/database.js
+2. rename the file *config/database_to_copy.js* to *config/database.js*
+   1. > cp config/database_to_copy.js config/strapi-generic/database.js
 3. in *database.js* replace the values
 4. install the dependencies
    1. > npm install
